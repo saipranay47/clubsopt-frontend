@@ -1,0 +1,58 @@
+.parent{
+    margin-top: 20px;
+ 
+}
+.parent-parallel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.parallel-1{
+    background-color: #79d279;
+    padding: 2%;
+    border-radius: 60px; 
+}
+.parent-parallel p{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.parallel-2{
+    background-color: #85a3e0;
+    padding: 2%;
+    border-radius: 60px;
+}
+.club-box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    width: 450px;
+    height: 180px;
+    text-decoration: none;
+    background-color: #d1e0e0;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    transition: all ease 0.3s;
+}
+.club-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.club-box h3{
+    color: black;
+    font-size: 18px;
+    margin:auto;
+}
+.columns{
+    width: 500px;
+    height: 800px;
+    overflow-y: auto;
+}
+.columns::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+

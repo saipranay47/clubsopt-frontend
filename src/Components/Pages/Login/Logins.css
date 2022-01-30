@@ -1,0 +1,40 @@
+
+.col-mid-2{
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Name-2{
+    color: black;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.button{
+    margin-top: 50%;
+    background-color: #ff751a;
+    border-radius: 220px;
+    color: white;
+    padding: 10px 30px;
+    border-color: rgb(163, 143, 163);
+    border-width: 2px;
+    text-align: center;
+    font-size: 22px;
+    margin:6px 0;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    height: 60px;
+}
+.button:hover {
+    background-color: #7B68EE;
+    color: black;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.fa-google,button:hover{
+   color: #ff751a;
+   font-size: x-large;
+}

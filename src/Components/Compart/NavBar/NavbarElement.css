@@ -1,0 +1,66 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 10%;
+  position: sticky;
+  top: 0;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.logopart1{
+  color: black;
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.logopart2{
+  color:#7B68EE;
+  font-size: 42px;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+.logopart2:hover{
+  color:black;
+}
+
+li, a{
+  font-family: "Monserrat",sans-serif;
+  font-weight: 400;
+  color: #7B68EE;
+  font-size: 23px;
+  text-decoration: none;
+}
+li a:hover {
+  color: black;
+  transition:0.3s;
+}
+.cta{
+  background-color: #ff751a;
+  font-family: "Monserrat",sans-serif;
+  font-weight: 400;
+  border:none;
+  font-size: 23px;
+  border-radius: 100px;
+  padding: 3px 20px;
+  font-size: 20px;
+  margin: 3px 2px;
+  opacity: 0.8;
+  transition: ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  height: 45px;
+  color: white;
+}
+.cta:hover{
+  background-color: #7B68EE;
+  color: black;
+  opacity: 0.9;
+  transition: 0.3s;
+}
